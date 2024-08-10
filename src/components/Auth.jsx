@@ -1,7 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { FaRegUser } from "react-icons/fa";
+export default function Auth  ()  {
 
-export function Auth  ()  {
+  const handleRediractToWikiMedia = () => {
+    
+  };
+  
   return (
-    <div>Auth</div>
+      <FaRegUser  />
   )
 }
