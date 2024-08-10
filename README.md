@@ -1,8 +1,5 @@
-# React + Vite
+# Wiki-Match-Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Wiki-Match-Frontend is a user-friendly solution dessigned to faccilitate the contribution process on Wikimedia, focusing on linking audio pronounciation on WikiCommon to the corresponding Wikidata item. The problem we are addressing is the absence of audio pronounciation in a certian language or no audio pronouncitiation at all. Wiki-Match, with it's user friendly interface allows users to listen to audio pronunciations in a their specified choosen language and match them with the correct Wikidata items or entries.
