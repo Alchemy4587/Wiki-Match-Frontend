@@ -1,3 +1,5 @@
+<!-- ![Wiki-Match Logo](https://github.com/your-repo/assets/banner.png) -->
+
 # Wiki-Match-Frontend
 
 ## Project Overview
@@ -13,9 +15,9 @@ Wikimedia being a large platform, is divided into the Wikidata and WikiCommons. 
 **Wiki-Match-Frontend** with it's user friendly interface,
 
 - Allows Signed in user to select their language proficiency.
-- Listen to the provided pronounciation audio and, 
+- Listen to the provided pronounciation audio and,
 - Match these audio files to the correct Wikidata entries.
-- Skip if unsure of the wikidata 
+- Skip if unsure of the wikidata
 - Or click on a readmore button to view more or read more information about the wikidata he/she suspects to match the sound.
 - With all this done and no audio pronounciation is left, The user will be directed to a Gratitude page Thanking them for a job well done and a message indicating there are no more audios in that language to link a particular wikidata and they can come back again or select another language and contribute if The are multi-lingua.
 
@@ -25,3 +27,12 @@ Wikimedia being a large platform, is divided into the Wikidata and WikiCommons. 
 2. **Select Language of proficiency** An auto search will help users to complete their language of proficiency.
 3. **Audio-Wikidata Matching** Users can match audio files to Wikidata by clicking on a checkbox, with the ability to skip when uncertain on which wikidata corresponds to the audio pronounciation.
 4. **Gratitude** After completing a set of matches, users are shown a Gratitude Page that thanks them for their contributions, highlighting the positive impact of their work on the Wikimedia community.
+
+## Technologies
+
+- Javascript,
+- React + Vite
+
+- Tailwind Css
+
+## Contributors
