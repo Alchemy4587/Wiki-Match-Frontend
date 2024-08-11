@@ -1,13 +1,13 @@
 // import ComboBox from './components/Authocomplete_DropDown'
 
-import { HeroSection } from "./components/HeroSection"
+import { HeroSection } from "./components/HeroSection";
+import Navbar from "./components/Navbar";
 
 function App() {
-
-
   return (
     <>
-     <HeroSection  />
+      <Navbar />
+      <HeroSection />
       {/* <ComboBox/>
      
       <p className="read-the-docs">
@@ -16,7 +16,7 @@ function App() {
 
       <button type="button">Next</button> */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;

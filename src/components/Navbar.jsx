@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import logo from "../assets/logo.svg";
 import Auth from "./Auth";
 
-function Navbar() {
+export default function Navbar() {
   return (
    <>
     <nav className="bg-nav-color p-4 flex justify-between items-center">
@@ -13,5 +13,3 @@ function Navbar() {
    </>
   );
 }
-
-export default Navbar;
