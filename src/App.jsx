@@ -1,5 +1,6 @@
 // import ComboBox from './components/Authocomplete_DropDown'
 
+import Footer from "./components/footer";
 import { HeroSection } from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 
@@ -8,6 +9,8 @@ function App() {
     <>
       <Navbar />
       <HeroSection />
+
+      <Footer />
       {/* <ComboBox/>
      
       <p className="read-the-docs">
