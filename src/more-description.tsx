@@ -13,7 +13,7 @@ function MoreDescription() {
 
   return (
     <div>
-      <button onClick={openModal} className="text-white px-4 py-2 rounded mr-2">Show Image</button>
+      <button onClick={openModal} className="text-white bg-black px-4 py-2 rounded mr-2">Show Image</button>
 
       <Modal isOpen={isModalOpen} onClose={closeModal} title="More Details" >
       <div className="flex justify-center items-center">

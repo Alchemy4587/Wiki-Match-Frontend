@@ -2,6 +2,7 @@ import React from 'react';
 import MoreDescription from './more-description';
 import ConfirmEditData from './edit-data';
 import Congratulations from './congratulations';
+import SelectDropDown from './slect-dropdown';
 
 function App() {
     return (
@@ -9,6 +10,7 @@ function App() {
             <MoreDescription />
             <ConfirmEditData />
             <Congratulations />
+            <SelectDropDown />
         </div>
     );
 }
