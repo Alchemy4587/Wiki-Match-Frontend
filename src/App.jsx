@@ -1,13 +1,4 @@
 // import ComboBox from './components/Authocomplete_DropDown'
-<<<<<<< HEAD
-import Navbar from './components/Navbar'
-
-function App() {
-
-  return (
-    <>
-     <Navbar />
-=======
 
 import Footer from "./components/footer";
 import { HeroSection } from "./components/HeroSection";
@@ -27,7 +18,6 @@ function App() {
       </p>
 
       <button type="button">Next</button> */}
->>>>>>> 71007d149ab5f3b0f750979ab32af3faf822ce53
     </>
   );
 }
