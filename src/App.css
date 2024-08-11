@@ -40,3 +40,27 @@
 .read-the-docs {
   color: #888;
 }
+/* body {
+  background-color: rgb(203, 233, 243);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.maintainer {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+}
+
+.container {
+  background-color: red;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pages-container {
+  background-color: #fff;
+} */
