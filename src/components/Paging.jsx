@@ -4,7 +4,7 @@ import React from 'react'
 const paging = () => {
   return (
 
-    <div className="inline-flex items-center justify-center gap-3">
+    <div className="inline-flex items-center justify-center gap-5">
   <a
     href="#"
     className="inline-flex size-8 items-center justify-center rounded border border-gray-100 bg-white text-gray-900 rtl:rotate-180"
