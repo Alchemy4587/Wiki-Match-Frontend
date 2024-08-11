@@ -19,12 +19,12 @@
   --nav-color: #ffff;
 }
 
-a {
-  text-decoration: inherit;
-}
 
+<<<<<<< HEAD
 button:focus,
 button:focus-visible {
   outline: 4px auto;
 }
+=======
+>>>>>>> 71007d149ab5f3b0f750979ab32af3faf822ce53
 
