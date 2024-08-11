@@ -1,5 +1,6 @@
 import React from "react";
 import Modal from "./modal";
+import { useState } from "react";
 
 function Congratulations() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -18,11 +19,17 @@ function Congratulations() {
       >
         Show Congratulations
       </button>
-      <p>Congratulations! Your changes have been saved successfully.</p>
-
       <Modal isOpen={isModalOpen} onClose={closeModal} title="Congratulations!">
         <>
           <p>Congratulations! Your changes have been saved successfully.</p>
+          <div className="flex justify-end mt-4">
+              <button
+                onClick={closeModal}
+                className="bg-green-500 text-white px-4 py-2 rounded"
+              >
+                Home
+              </button>
+            </div>
         </>
       </Modal>
     </>

@@ -1,4 +1,7 @@
 import React from "react";
+import Modal from "./modal";
+import { useState } from "react";
+
 
 function ConfirmEditData() {
   const [isModalOpen, setIsModalOpen] = useState(false);
