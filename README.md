@@ -1,4 +1,4 @@
-<!-- ![Wiki-Match Logo](https://github.com/your-repo/assets/banner.png) -->
+![Wiki-Match Logo](./src/assets/logo.svg)
 
 # Wiki-Match-Frontend
 
@@ -32,10 +32,12 @@ Wikimedia being a large platform, is divided into the Wikidata and WikiCommons. 
 
 ## Features
 
-1. **User Authenticatio** Secure User Login by MediaWiki OAuth with redirections of accounts if neccesary
-2. **Select Language of proficiency** An auto search will help users to complete their language of proficiency.
-3. **Audio-Wikidata Matching** Users can match audio files to Wikidata by clicking on a checkbox, with the ability to skip when uncertain on which wikidata corresponds to the audio pronounciation.
-4. **Gratitude** After completing a set of matches, users are shown a Gratitude Page that thanks them for their contributions, highlighting the positive impact of their work on the Wikimedia community.
+1. **Landing Page**
+i. **User Authentication** Secure User Login by MediaWiki OAuth with redirections of accounts if neccesary on the landing page
+ii. **Select Language of proficiency** An auto search will help users to complete their language of proficiency.
+
+2. **Audio-Wikidata Matching page** Users can match audio files to Wikidata by clicking on a checkbox, with the ability to skip when uncertain on which wikidata corresponds to the audio pronounciation.
+3. **Gratitude** After completing a set of matches, users are shown a Gratitude Page that thanks them for their contributions, highlighting the positive impact of their work on the Wikimedia community.
 
 ## Technologies
 
