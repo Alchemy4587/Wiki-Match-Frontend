@@ -1,18 +1,11 @@
-import ComboBox from './components/Authocomplete_DropDown'
+// import ComboBox from './components/Authocomplete_DropDown'
+import Navbar from './components/Navbar'
 
 function App() {
 
-
   return (
     <>
-     
-      <ComboBox/>
-     
-      <p className="read-the-docs">
-        Select a Language you want to work with.
-      </p>
-
-      <button type="button">Next</button>
+     <Navbar />
     </>
   )
 }
