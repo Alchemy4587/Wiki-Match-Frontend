@@ -8,7 +8,8 @@ export default {
     extend: {
       colors: {
         "primary-color": "var(--primary-color)",
-        "icon-border-color": "var(--icon-border-color)"
+        "icon-border-color": "var(--icon-border-color)",
+        "nav-color": "var(--nav-color:)"
       }
     },
   },
