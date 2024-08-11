@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { ENDPOINTS } from '../endpoints'
 
-const url=ENDPOINTS.api + ENDPOINTS.getMatches
+const url=API_BASE_URL + ENDPOINTS.getMatches
 
 
 const fetchMatches = async (languageObject) => {

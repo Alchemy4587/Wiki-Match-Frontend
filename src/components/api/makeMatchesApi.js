@@ -1,19 +1,14 @@
 import axios from 'axios'
 import { ENDPOINTS } from '../endpoints'
 
-const url=ENDPOINTS.api + ENDPOINTS.makeMatch
+const url=API_BASE_URL + ENDPOINTS.makeMatch
 
 
 const makeMatch = async (data) => {
 
-    const token = getToken()
 
     try{
-        const response = await axios.post(url , data , {
-            headers: {
-                Authorization: ' Bearer ' + token
-            }
-        })
+        const response = await axios.post(url , data )
         return response.data;
     }
 

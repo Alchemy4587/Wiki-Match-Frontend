@@ -2,7 +2,7 @@ import axios from 'axios'
 import { ENDPOINTS } from '../endpoints'
 import { useState } from 'react'
 
-const url=ENDPOINTS.api + ENDPOINTS.getLanguages
+const url=API_BASE_URL + ENDPOINTS.getLanguages
 
 
 const fetchLanguages = async () => {
