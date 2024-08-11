@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+// import './App.css'
 import Auth from './components/Auth'
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
   return (
     <>
       <div>
+      <Auth />
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -20,7 +21,6 @@ function App() {
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-      <Auth />
           count is {count}
         </button>
         <p>
